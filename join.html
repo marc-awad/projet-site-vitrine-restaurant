@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steak House : Nous rejoindre</title>
+    <link rel="icon" href="image/logo_steakhouse_true_black.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Barre de navigatlion dans le header-->
+        <nav id="top">
+            <ul>
+                <li><a id="logo" href="index.html"><img src="image/logo-transparent-png.png"
+                            alt="Logo de l'entreprise"></a></li>
+                <li><a href="carte.html">La carte</a></li>
+                <li><a href="engagement.html">Nos engagements</a></li>
+                <li><a href="join.html">Nous rejoindre</a></li>
+                <li><a href="restau.html">Nos restaurants</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1>
+        <strong>Nous rejoindre !</strong>
+    </h1>
+    <main>
+        <section>
+            <article>
+                <form action="" onsubmit="recupererCV(event)" id="formulaire">
+                    <label for="prenom_nom"> Nom et prénom</label>
+                    <input type="text" id="prenom_nom" placeholder="Marie DUPONT" required>
+                    <label for="mail">Adresse mail</label>
+                    <input type="text" id="mail" placeholder="marie.dupont@gmail.fr">
+                    <label for="telephone">Numéro de téléphone</label>
+                    <input type="text" id="telephone" placeholder="06 45 89 75 36">
+                        <label for="cv">Votre CV</label>
+                        <input type="file" id="cv" required>
+                    <label for="horaire">Taux horaire</label>
+                    <select id="horaire">
+                        <option value="10">10 heure par semaine</option>
+                        <option value="18">18 heure par semaine</option>
+                        <option value="24">24 heure par semaine</option>
+                        <option value="35">35 heure par semaine</option>
+                    </select>
+                    <button id="valide" type="submit">Valider</button>
+                </form>
+
+                <h2 id="message"></h2>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <article id="contact">
+            <h4>Nous contacter</h4>
+            <p>Email : info@steakhaven.com</p>
+            <p>Téléphone : +33 9 52 36 87 42</p>
+            <img src="image/logo_steakhouse_true_black.png" alt="">
+        </article>
+        <article id="liens_rapide">
+            <h4>Navigation</h4>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="carte.html">La carte</a></li>
+                <li><a href="engagement.html">Engagements</a></li>
+                <li><a href="join.html">Nous rejoindre</a></li>
+                <li><a href="restau.html">Nos restaurants</a></li>
+            </ul>
+        </article>
+        <article id="reseau_sociaux">
+            <h4>Nous suivre</h4>
+            <p>Suivez-nous sur les réseaux sociaux pour les dernières mises à jour et promotions :</p>
+            <a href="https://www.facebook.com/search/top?q=steak%20house" target="_blank"><img
+                    src="image/facebook_logo.png" alt="Facebook"></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fbeefcutparis" target="_blank"><img
+                    src="image/twitter_logo.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/beysteakhouse/" target="_blank"><img
+                    src="image/instagram_logo.png" alt="Instagram"></a>
+        </article>
+    </footer>
+    <p id="reserve">&copy; 2024 Steak Haven. Tous droits réservés.</p>
+    <script src="js/join.js"></script>
+</body>
+
+</html>
