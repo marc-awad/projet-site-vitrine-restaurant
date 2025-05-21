@@ -55,7 +55,7 @@
    git clone https://github.com/marc-awad/projet-site-vitrine-restaurant.git
     ```
 
-2.Open `index.html` in your browser.
+2. Open `index.html` in your browser.
 
 > No server or installation required.
 
