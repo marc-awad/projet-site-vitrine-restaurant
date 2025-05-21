@@ -52,7 +52,7 @@
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/steak-haven.git
+   git clone https://github.com/marc-awad/projet-site-vitrine-restaurant.git
     ```
 
 2.Open `index.html` in your browser.
