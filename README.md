@@ -67,4 +67,4 @@ The restaurant's location is displayed using **Leaflet.js**, with a custom marke
 
 ---
 
-© 2025 – Personal project to learn web development
+© 2025 – School project to learn web development basics
