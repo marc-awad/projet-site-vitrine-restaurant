@@ -46,7 +46,7 @@
 
 ## 📷 Preview
 
-*To be added: screenshots of homepage, menu section, and map*
+![image](https://github.com/user-attachments/assets/9c74b484-aa9f-466d-9b07-50141a133a85)
 
 ## 📁 Installation
 
